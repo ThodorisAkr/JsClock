@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 103, 146);
+  opacity: 0.7;
+  position: relative;
+}
+
+.clock {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.outline {
+  position: absolute;
+  border: 15px solid white;
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+}
+
+.hand {
+  position: absolute;
+  background-color: black;
+  height: 6px;
+  top: 50%;
+  transform-origin: 100%;
+}
+
+.hour-hand {
+  width: 30%;
+  left: 19%;
+}
+.minute-hand {
+  width: 35%;
+  left: 14%;
+}
+
+.second-hand {
+  width: 40%;
+  left: 9%;
+}
+
+.hour {
+  position: absolute;
+  top: 10%;
+  font-size: 5rem;
+  left: 40%;
+}
